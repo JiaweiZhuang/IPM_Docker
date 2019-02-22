@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     make \
     gcc g++ gfortran \
     libopenmpi-dev \
+    openssh-server \
     autoconf libtool \
     ploticus \
     && rm -rf /var/lib/apt/lists/*
